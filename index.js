@@ -8,6 +8,8 @@ app.use(cors()); // добавление Acces control allow origin *
 
 app.use(express.json());
 
+app.use("/img", express.static("./img"));
+
 app.get("/", (req, res) => {
   try {
     res.status(200).json({
@@ -19,7 +21,8 @@ app.get("/", (req, res) => {
             "Устрицы считаются довольно дорогим и редким деликатесом.",
           price: "2 700",
           dishWeight: "500",
-          pictureURL: "https://tekhnolog.com/2021/05/10/ustritsy/",
+          pictureURL:
+            "https://restaurant-small-api.herokuapp.com/Retseptura-blyuda-Ustritsy.jpg",
         },
         {
           id: 2,
