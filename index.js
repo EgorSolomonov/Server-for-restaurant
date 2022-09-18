@@ -96,6 +96,6 @@ app.get("/", (req, res) => {
   }
 });
 
-app.listen("8800", () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log("Server is running");
 });
