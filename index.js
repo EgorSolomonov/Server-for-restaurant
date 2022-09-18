@@ -21,8 +21,6 @@ app.get("/", (req, res) => {
             "Устрицы считаются довольно дорогим и редким деликатесом.",
           price: "2 700",
           dishWeight: "500",
-          pictureURL:
-            "https://restaurant-small-api.herokuapp.com/Retseptura-blyuda-Ustritsy.jpg",
         },
         {
           id: 2,
@@ -31,8 +29,6 @@ app.get("/", (req, res) => {
             "Просто невозможно остаться равнодушным к ароматным свиным ребрышкам на мангале с румяной корочкой.",
           price: "1 600",
           dishWeight: "750",
-          pictureURL:
-            "https://lafoy.ru/svinye-rebryshki-na-mangale-recepty-1949",
         },
         {
           id: 3,
@@ -40,8 +36,6 @@ app.get("/", (req, res) => {
           description: "Креветки с лимоном — классическое сочетание.",
           price: "1 820",
           dishWeight: "7",
-          pictureURL:
-            "https://webspoon.ru/receipt/krevetki-v-chesnochnom-souse",
         },
         {
           id: 4,
@@ -50,8 +44,6 @@ app.get("/", (req, res) => {
             "Тонкое хрустящее тесто с ароматом розмарина подчеркнет вкус вашего блюда и всем придется по душе.",
           price: "1 700",
           dishWeight: "500",
-          pictureURL:
-            "https://www.shagalov-family.ru/recipe/focaccia-with-rosemary/",
         },
         {
           id: 5,
@@ -60,8 +52,6 @@ app.get("/", (req, res) => {
             "Фарш из баранины в сочетании с пряными специями и легким ароматом дымка никого не оставит равнодушным. А аппетитный мятный соус из натурального йогурта дополняет и подчеркивает вкус люля-кебаба.",
           price: "2 200",
           dishWeight: "200",
-          pictureURL:
-            "https://www.gastronom.ru/recipe/46523/lyulya-kebab-iz-baraniny-s-sousom-iz-maconi",
         },
         {
           id: 6,
@@ -69,8 +59,6 @@ app.get("/", (req, res) => {
           description: "Гранатом, руколой и медово-горчичной заправкой.",
           price: "820",
           dishWeight: "150",
-          pictureURL:
-            "https://e2.edimdoma.ru/data/recipes/0014/9959/149959-ed4_wide.jpg?1655955647",
         },
         {
           id: 7,
@@ -79,8 +67,6 @@ app.get("/", (req, res) => {
             "Шарлотка с рисовой мукой пригодится осенью, когда вкусной ароматной выпечкой хочется себя порадовать даже тем, кто на диете.",
           price: "1 100",
           dishWeight: "300",
-          pictureURL:
-            "httpshttps://e3.edimdoma.ru/data/recipes/0015/0417/150417-ed4_wide.jpg?1662112539",
         },
         {
           id: 8,
@@ -89,8 +75,6 @@ app.get("/", (req, res) => {
             "Этот суп напоминает лето — он яркий, невесомый и подходит тем, кто думает о здоровом питании.",
           price: "1 100",
           dishWeight: "400",
-          pictureURL:
-            "https://e3.edimdoma.ru/data/recipes/0015/0407/150407-ed4_wide.jpg?1661934518",
         },
       ],
     });
