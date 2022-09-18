@@ -8,7 +8,7 @@ app.use(cors()); // добавление Acces control allow origin *
 
 app.use(express.json());
 
-app.get("/menuList", (req, res) => {
+app.get("/", (req, res) => {
   try {
     res.status(200).json({
       menuList: [
