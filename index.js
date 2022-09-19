@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
           price: "1 600",
           dishWeight: "750",
           pictureUrl:
-            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
+            "https://restaurant-small-api.herokuapp.com/img/Svinie rebrishki id-2.jpg.jpg",
         },
         {
           id: 3,
@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
           price: "1 820",
           dishWeight: "7",
           pictureUrl:
-            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
+            "https://restaurant-small-api.herokuapp.com/img/krevetki id-3.jpg.jpg",
         },
         {
           id: 4,
@@ -51,7 +51,7 @@ app.get("/", (req, res) => {
           price: "1 700",
           dishWeight: "500",
           pictureUrl:
-            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
+            "https://restaurant-small-api.herokuapp.com/img/fokachcha id-4.jpg.jpg",
         },
         {
           id: 5,
@@ -61,7 +61,7 @@ app.get("/", (req, res) => {
           price: "2 200",
           dishWeight: "200",
           pictureUrl:
-            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
+            "https://restaurant-small-api.herokuapp.com/img/lula kebab id-5.jpg.jpg",
         },
         {
           id: 6,
@@ -70,7 +70,7 @@ app.get("/", (req, res) => {
           price: "820",
           dishWeight: "150",
           pictureUrl:
-            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
+            "https://restaurant-small-api.herokuapp.com/img/salat s fetoi id-6.jpg.jpg",
         },
         {
           id: 7,
@@ -80,7 +80,7 @@ app.get("/", (req, res) => {
           price: "1 100",
           dishWeight: "300",
           pictureUrl:
-            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
+            "https://restaurant-small-api.herokuapp.com/img/sharlotka id-7.jpg.jpg",
         },
         {
           id: 8,
@@ -90,7 +90,7 @@ app.get("/", (req, res) => {
           price: "1 100",
           dishWeight: "400",
           pictureUrl:
-            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
+            "https://restaurant-small-api.herokuapp.com/img/sup iz latuka.jpg.jpg",
         },
       ],
     });
