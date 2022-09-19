@@ -21,6 +21,8 @@ app.get("/", (req, res) => {
             "Устрицы считаются довольно дорогим и редким деликатесом.",
           price: "2 700",
           dishWeight: "500",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
         {
           id: 2,
