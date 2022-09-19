@@ -31,6 +31,8 @@ app.get("/", (req, res) => {
             "Просто невозможно остаться равнодушным к ароматным свиным ребрышкам на мангале с румяной корочкой.",
           price: "1 600",
           dishWeight: "750",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
         {
           id: 3,
@@ -38,6 +40,8 @@ app.get("/", (req, res) => {
           description: "Креветки с лимоном — классическое сочетание.",
           price: "1 820",
           dishWeight: "7",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
         {
           id: 4,
@@ -46,6 +50,8 @@ app.get("/", (req, res) => {
             "Тонкое хрустящее тесто с ароматом розмарина подчеркнет вкус вашего блюда и всем придется по душе.",
           price: "1 700",
           dishWeight: "500",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
         {
           id: 5,
@@ -54,6 +60,8 @@ app.get("/", (req, res) => {
             "Фарш из баранины в сочетании с пряными специями и легким ароматом дымка никого не оставит равнодушным. А аппетитный мятный соус из натурального йогурта дополняет и подчеркивает вкус люля-кебаба.",
           price: "2 200",
           dishWeight: "200",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
         {
           id: 6,
@@ -61,6 +69,8 @@ app.get("/", (req, res) => {
           description: "Гранатом, руколой и медово-горчичной заправкой.",
           price: "820",
           dishWeight: "150",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
         {
           id: 7,
@@ -69,6 +79,8 @@ app.get("/", (req, res) => {
             "Шарлотка с рисовой мукой пригодится осенью, когда вкусной ароматной выпечкой хочется себя порадовать даже тем, кто на диете.",
           price: "1 100",
           dishWeight: "300",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
         {
           id: 8,
@@ -77,6 +89,8 @@ app.get("/", (req, res) => {
             "Этот суп напоминает лето — он яркий, невесомый и подходит тем, кто думает о здоровом питании.",
           price: "1 100",
           dishWeight: "400",
+          pictureUrl:
+            "https://restaurant-small-api.herokuapp.com/img/Ustritsy id-1.jpg",
         },
       ],
     });
